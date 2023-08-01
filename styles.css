@@ -11,6 +11,10 @@ main {
     margin-top: 2rem;
 }
 
+header {
+    padding: .25rem;
+}
+
 .custom-navbar {
     background-color: #38817a !important;
     color: #f7f39a !important;
@@ -49,7 +53,7 @@ main {
 .footer {
     flex-shrink: 0;
     width: 100%;
-    line-height: 60px;
+    /* line-height: 60px; */
     /* background-color: #f5f5f5; */
 }
 .navbar, .footer {
