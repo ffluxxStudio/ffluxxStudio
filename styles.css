@@ -2,7 +2,7 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    font-family: Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #f7f39a;
     background-color: #346473;
 }
@@ -111,6 +111,20 @@ header {
 
 .news-item h3, .game h3, .team-member h3 {
     margin-top: 0;
+}
+
+h1 {
+    font-weight: bold;
+    color: #a3de83;
+}
+
+.title-span {
+    color: #ff3d67d6;
+}
+
+h2 {
+    font-weight: bold;
+    color: #a3de83;
 }
 
 .logo {
