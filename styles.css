@@ -8,6 +8,7 @@ body {
 
 .navbar {
     margin-bottom: 20px;
+    border-radius: 5%;
 }
 
 .footer {
