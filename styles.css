@@ -2,16 +2,49 @@ body {
     display: flex;
     min-height: 100vh;
     flex-direction: column;
-    padding-top: 3.5rem;
     font-family: Arial, sans-serif;
-    margin-top: 1rem;
+    color: #f7f39a;
     background-color: #346473;
 }
 
-.navbar {
-    margin-bottom: 20px;
-    border-radius: 5%;
+main {
+    margin-top: 2rem;
 }
+
+.custom-navbar {
+    background-color: #38817a !important;
+    color: #f7f39a !important;
+    border-radius: .5rem;
+}
+
+.custom-navbar .nav-link {
+    color: #f7f39a !important;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #a3de83 !important;
+}
+
+.custom-navbar .btn {
+    color: #f7f39a !important;
+    border-color: #f7f39a !important;
+}
+
+.custom-navbar .btn:hover {
+    color: #346473 !important;
+    background-color: #f7f39a !important;
+}
+
+.brand-ffluxx {
+    color: #a3de83; /* or any color you want */
+}
+
+.brand-studio {
+    color: #ff3d67d6; /* or any other color you want */
+    font-weight: bold;
+}
+
+
 
 .footer {
     flex-shrink: 0;
@@ -19,7 +52,40 @@ body {
     line-height: 60px;
     /* background-color: #f5f5f5; */
 }
+.navbar, .footer {
+    background-color: #38817a;
+    color: #f7f39a;
+}
 
+.navbar a, .footer a {
+    color: #f7f39a;
+}
+
+.navbar a:hover, .footer a:hover {
+    color: #a3de83;
+}
+
+.btn-outline-primary {
+    color: #38817a;
+    border-color: #38817a;
+}
+
+.btn-outline-primary:hover {
+    color: #346473;
+    background-color: #38817a;
+    border-color: #38817a;
+}
+
+.btn-outline-secondary {
+    color: #a3de83;
+    border-color: #a3de83;
+}
+
+.btn-outline-secondary:hover {
+    color: #346473;
+    background-color: #a3de83;
+    border-color: #a3de83;
+}
 .container {
     flex: 1 0 auto;
     width: auto;
@@ -28,9 +94,10 @@ body {
 }
 
 .game, .news-item, .team-member {
-    border: 1px solid #ddd;
+    border: 1px solid #38817a;
     padding: 15px;
     margin-bottom: 20px;
+    border-radius: .75rem;
 }
 
 .game img, .team-member img {
