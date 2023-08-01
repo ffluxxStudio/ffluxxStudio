@@ -46,3 +46,18 @@ body {
     border-radius: 15%;
     margin-right: 10px;
 }
+.first-color { 
+	background: #f7f39a; 
+}
+	
+.second-color { 
+	background: #a3de83; 
+}
+
+.third-color { 
+	background: #38817a; 
+}
+
+.fourth-color { 
+	background: #346473; 
+}
